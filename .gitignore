@@ -1,0 +1,33 @@
+# ==========================================
+# 1. Databricks & Apache Spark Artifacts
+# ==========================================
+.databricks/
+.databrickscfg
+spark-warehouse/
+metastore_db/
+derby.log
+
+# ==========================================
+# 2. Python & Jupyter Notebook Checkpoints
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.python-version
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# ==========================================
+# 3. Credentials, Secrets & Configs
+# ==========================================
+.env
+.env.*
+*.pem
+*.key
+secrets.json
+config.ini
